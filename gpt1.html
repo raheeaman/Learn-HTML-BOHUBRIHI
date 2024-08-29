@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="gpt1.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg" alt="Spotify Logo">
+                <h1>Spotify</h1>
+            </div>
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Your Library</a></li>
+            </ul>
+        </aside>
+        <main class="main-content">
+            <header class="header">
+                <div class="user-info">
+                    <span>User Name</span>
+                </div>
+            </header>
+            <section class="content">
+                <h2>Good Evening</h2>
+                <div class="playlists">
+                    <div class="playlist">
+                        <img src="https://via.placeholder.com/150" alt="Playlist Cover">
+                        <p>Playlist 1</p>
+                    </div>
+                    <div class="playlist">
+                        <img src="https://via.placeholder.com/150" alt="Playlist Cover">
+                        <p>Playlist 2</p>
+                    </div>
+                    <div class="playlist">
+                        <img src="https://via.placeholder.com/150" alt="Playlist Cover">
+                        <p>Playlist 3</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="now-playing">
+                <p>Now Playing: <span id="now-playing-song">Song Name</span></p>
+            </div>
+            <div class="controls">
+                <button id="prev-btn">&#9664;&#9664;</button>
+                <button id="play-btn">&#9654;</button>
+                <button id="next-btn">&#9654;&#9654;</button>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
